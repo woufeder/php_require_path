@@ -1,3 +1,6 @@
+<?php
+$cssLevel = "./";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,5 +14,6 @@
 <body>
   <header></header>
   <a href="cate1">cate1</a>
+  <?php require_once "footer.php" ?>
 </body>
 </html>
